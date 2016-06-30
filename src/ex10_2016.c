@@ -114,7 +114,6 @@ CELL *input_func(char *INPUTFILE){
         /*ダミー生成*/
         tail=&_head;
 
-
         _head.next=NULL;
         /*リスト生成*/
         while(!feof(ifp)){
@@ -236,3 +235,5 @@ void output_func(char *OUTPUTFILE,CELL *_head){
     }
     fclose(ofp);
 }
+
+//test
